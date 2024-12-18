@@ -8,8 +8,8 @@ import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
 import Navbar from '../Navbar/Navbar'
 import Gohome from '../Gohome/Gohome'
+import Experience from '../Experience/Experience'
 // import Achievement from '../Achievement/Achievement'
-import Experience from '../experience/Experience'
 const App = () => {
 
    
