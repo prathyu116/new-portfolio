@@ -1,0 +1,63 @@
+/* Experience.css */
+
+.section-container {
+  padding: 40px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.experience-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 15px;
+  padding: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 25px;
+}
+
+.experience-title {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.experience-duration {
+  font-size: 1.1em;
+  color: #777;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.experience-details {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 1em;
+  color: #555;
+  line-height: 1.8;
+}
+/* Adjust title for small screens */
+@media (max-width: 600px) {
+  .experience-title {
+    font-size: 1.2em; /* Smaller font size for smaller screens */
+    white-space: normal; /* Allow the title to wrap onto multiple lines */
+    overflow: visible; /* Remove the ellipsis for better readability */
+    text-overflow: unset; /* Disable ellipsis */
+  }
+}
