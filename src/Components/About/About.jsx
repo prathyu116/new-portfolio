@@ -21,7 +21,7 @@ const About = () => {
       />
       <div className="home-btnn">
         <a
-          href="https://drive.google.com/file/d/1PLI9AhYRznogvzhxAtuepvg9AqDyCur-/view?usp=sharing"
+          href="https://drive.google.com/file/d/145Byow71fH1CkRoscvaXs9G3aOMnpcdC/view?usp=sharing"
           target="_blank"
           className="btnn btn-white"
         >
@@ -46,7 +46,6 @@ const About = () => {
 
       <div className="education">
         <VerticalTimeline>
-          
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(19, 42, 62)", color: "#fff" }}
